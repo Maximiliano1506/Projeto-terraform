@@ -1,0 +1,21 @@
+# Dependências Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Arquivos de ambiente e variáveis locais
+.env
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Builds do Angular
+dist/
+
+# Arquivos de configuração do Terraform
+terraform-provider-aws*
+.terraform/
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+terraform.tfstate.backup
